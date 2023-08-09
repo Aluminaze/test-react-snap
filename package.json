@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-helmet": "^6.1.6",
     "@types/react-router-dom": "^5.3.3",
     "react-snap": "^1.23.0"
   },

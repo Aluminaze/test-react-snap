@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { About } from "./components/About";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
           <h1>Main</h1>
         </Route>
         <Route path={"/about"} exact>
-          <h1>About</h1>
+          <About />
         </Route>
         <Route path={"/blog"} exact>
           <h1>Blog</h1>
