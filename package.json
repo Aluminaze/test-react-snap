@@ -46,6 +46,10 @@
     "@types/react-router-dom": "^5.3.3",
     "react-snap": "^1.23.0"
   },
-  "puppeteerExecutablePath": "/usr/bin/chromium-browser",
-  "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu"]
+  "reactSnap": {
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ]
+  }
 }
