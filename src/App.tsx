@@ -3,6 +3,8 @@ import "./App.css";
 
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import { About } from "./components/About";
+import { Main } from "./components/Main";
+import { Blog } from "./components/Blog";
 
 function App() {
   return (
@@ -30,13 +32,13 @@ function App() {
 
       <Switch>
         <Route path={"/"} exact>
-          <h1>Main</h1>
+          <Main />
         </Route>
         <Route path={"/about"} exact>
           <About />
         </Route>
         <Route path={"/blog"} exact>
-          <h1>Blog</h1>
+          <Blog />
         </Route>
       </Switch>
     </BrowserRouter>
